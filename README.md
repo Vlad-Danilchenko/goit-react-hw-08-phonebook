@@ -1,3 +1,5 @@
+"email": "acrossLink@mail.com", "password": "examplepwd12345"
+
 # React homework template
 
 Этот проект был создан при помощи
