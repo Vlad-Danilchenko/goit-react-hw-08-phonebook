@@ -7,7 +7,7 @@ import {
   CardContainer,
 } from './Login.styled';
 
-const Login = () => {
+export const Login = () => {
   const dispath = useDispatch();
 
   const handleSubmit = e => {
@@ -38,5 +38,3 @@ const Login = () => {
     </CardContainer>
   );
 };
-
-export default Login;

@@ -8,7 +8,7 @@ import { ContactList } from 'components/ContactList/ContactList';
 import { Filter } from 'components/Filter/Filter';
 import { Container, CardContainer, MainTite, Title } from './Contacts.styled';
 
-const Contacts = () => {
+export const Contacts = () => {
   const dispatch = useDispatch();
   const isLoading = useSelector(selectIsLoading);
   const error = useSelector(selectError);
@@ -34,5 +34,3 @@ const Contacts = () => {
     </>
   );
 };
-
-export default Contacts;

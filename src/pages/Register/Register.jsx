@@ -7,7 +7,7 @@ import {
   CardContainer,
 } from './Register.styled';
 
-const Register = () => {
+export const Register = () => {
   const dispatch = useDispatch();
   const handleSubmit = e => {
     e.preventDefault();
@@ -43,4 +43,4 @@ const Register = () => {
   );
 };
 
-export default Register;
+// export default Register;
